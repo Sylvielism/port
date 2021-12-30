@@ -6,6 +6,8 @@
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://unpkg.com/@themesberg/flowbite@1.2.0/dist/flowbite.min.css" />
+     <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
     <script>
         module.exports = {
             theme: {
@@ -32,7 +34,7 @@
 </head>
 <body>
         <div class="w-full h-screen bg-cover bg-scroll overflow-y-auto " style="background-image: url('https://i.ibb.co/TW3STjx/E8l-CIx-KVUAMEx2-Zd.png')">
-            <nav class="px-2 bg-white border-gray-200 dark:bg-gray-800 dark:border-gray-700">
+            <nav class="px-2 bg-white border-gray-200 dark:bg-gray-800/50 dark:border-gray-700">
                 <div class="container flex flex-wrap justify-between items-center mx-auto">
                 <a href="#" class="flex">
                 <svg class="mr-3 h-20 p-1" width="51" height="70" viewBox="0 0 51 70" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M1 53H27.9022C40.6587 53 51 42.7025 51 30H24.0978C11.3412 30 1 40.2975 1 53Z" fill="#76A9FA"/><path d="M-0.876544 32.1644L-0.876544 66.411C11.9849 66.411 22.4111 55.9847 22.4111 43.1233L22.4111 8.87674C10.1196 8.98051 0.518714 19.5571 -0.876544 32.1644Z" fill="#A4CAFE"/><path d="M50 5H23.0978C10.3413 5 0 15.2975 0 28H26.9022C39.6588 28 50 17.7025 50 5Z" fill="#1C64F2"/></g><defs><clipPath id="clip0"><rect width="51" height="70" fill="white"/></clipPath></defs></svg>
@@ -87,6 +89,7 @@
                         <img src="https://i.ibb.co/qmcVXCF/003.png" alt="twitter" class="" border="0">
                 </div>
                 <p class="font-extrabold dark:text-white flex justify-center pt-8 text-6xl text-center">Lamud's Commision Price </p>
+                <p class="font-extrabold dark:text-white flex justify-center pt-3 text-5xl text-center">ネコデップ の コミッション</p>
                 <div class="flex flex-row justify-center pt-10">
                     <button type="button" class="py-2 px-4 mr-2 mb-2 text-sm font-medium text-gray-900 bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Alternative</button>
                     <button type="button" class="py-2 px-4 mr-2 mb-2 text-sm font-medium text-gray-900 bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Alternative</button>
@@ -94,10 +97,12 @@
                     <button type="button" class="py-2 px-4 mr-2 mb-2 text-sm font-medium text-gray-900 bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Alternative</button>
                 </div>
                 <div class="flex flex-row justify-center pt-7">
-                    <div class="px-6"><img src="https://i.ibb.co/bF0s0Ry/twitter.png" alt="twitter" border="0"></div>
-                    <div class="px-6"><img src="https://i.ibb.co/bF0s0Ry/twitter.png" alt="twitter" border="0"></div>
-                    <div class="px-6"><img src="https://i.ibb.co/bF0s0Ry/twitter.png" alt="twitter" border="0"></div>
-                    <div class="px-6"><img src="https://i.ibb.co/bF0s0Ry/twitter.png" alt="twitter" border="0"></div>
+                    <div class="px-2"><div class="rounded-full border-2 border-sky-500 hover:border-white"><div class="p-3 "><ion-icon name="logo-twitter" class="fill-white w-10 h-10"></ion-icon></div></div></div>
+                    <div class="px-2"><div class="rounded-full border-2 border-sky-500 hover:border-white"><div class="p-3"><ion-icon name="logo-facebook" class="fill-white w-10 h-10"></ion-icon></div></div></div>
+                    <div class="px-2"><div class="rounded-full border-2 border-sky-500 hover:border-white"><div class="p-3"><ion-icon name="logo-deviantart" class="fill-white w-10 h-10"></ion-icon></ion-icon></div></div></div>
+                    <div class="px-2"><div class="rounded-full border-2 border-sky-500 hover:border-white"><div class="p-3"><img src="https://i.ibb.co/bF0s0Ry/twitter.png" alt="twitter" border="0"></div></div></div>
+                    
+                    
                 </div>
                 <div class="lg:w-5/12 lg:mx-auto sm:w-10/12 bg">
                     <div class="mb-1 text-base font-medium dark:text-white">Small</div>
@@ -121,9 +126,11 @@
             <div class="h-48 "></div>
             <div class="flex lg:flex-row sm:flex-col">
                 <div class="h-96 bg-slate-700 lg:w-4/12 sm:w-full">01</div>
-                <div class="h-96 bg-gray-500 lg:w-8/12 sm:w-full">02</div>
+                <div class="h-96 bg-gray-500/50 lg:w-8/12 sm:w-full">02</div>
             </div>
         </div>
+
+        
         
 <script src="https://unpkg.com/@themesberg/flowbite@1.2.0/dist/flowbite.bundle.js"></script>
 </body>
